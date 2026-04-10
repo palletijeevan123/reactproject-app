@@ -1,0 +1,22 @@
+.navabar{
+  background-color: orange;
+}
+.nav-link.active{
+  color: aqua;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.relative{
+  position: sticky;
+}
+
+
+
+
+
+
+
+
