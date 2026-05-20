@@ -7,6 +7,7 @@ import acer from "../assets/images/asus.jpg";
 export default [
     {
         id: 101,
+        price:150000,
         name: "Dell XPS 13",
         ram: "16GB",
         storage: "512GB SSD",
@@ -16,6 +17,7 @@ export default [
     },
     {
         id: 102,
+        price:60000,
         name: "HP Pavilion 15",
         ram: "8GB",
         storage: "512GB SSD",
@@ -25,6 +27,7 @@ export default [
     },
     {
         id: 103,
+        price:200000,
         name: "MacBook Air M3",
         ram: "8GB",
         storage: "256GB SSD",
@@ -34,6 +37,7 @@ export default [
     },
     {
         id: 104,
+        price:65000,
         name: "Lenovo ThinkPad X1",
         ram: "16GB",
         storage: "1TB SSD",
@@ -43,6 +47,7 @@ export default [
     },
     {
         id: 105,
+        price:70000,
         name: "Acer Aspire 7",
         ram: "8GB",
         storage: "512GB SSD",
@@ -50,4 +55,5 @@ export default [
         display: "15.6 inch",
         image: acer
     }
+     
 ];

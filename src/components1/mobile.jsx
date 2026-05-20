@@ -6,6 +6,7 @@ import oneplus from '../assets/images/oneplus.jpg';
  export default [
     {
         id: 123,
+        price:35000,
         name: "Realme 10 5G",
         ram: "6GB",
         storage: "128GB",
@@ -15,6 +16,7 @@ import oneplus from '../assets/images/oneplus.jpg';
     },
     {
         id: 456,
+        price:150000,
         name: "Samsung Galaxy S25 Ultra",
         ram: "12GB",
         storage: "256GB",
@@ -24,6 +26,7 @@ import oneplus from '../assets/images/oneplus.jpg';
     },
     {
         id: 789,
+        price:120000,
         name: "iPhone 16",
         ram: "8GB",
         storage: "128GB",
@@ -33,6 +36,7 @@ import oneplus from '../assets/images/oneplus.jpg';
     },
     {
         id: 900,
+        price:50000,
         name: "iPhone 15",
         ram: "6GB",
         storage: "128GB",
@@ -42,6 +46,7 @@ import oneplus from '../assets/images/oneplus.jpg';
     },
     {
         id: 999,
+        price:90000,
         name: "OnePlus 11 5G",
         ram: "8GB",
         storage: "256GB",
@@ -49,4 +54,6 @@ import oneplus from '../assets/images/oneplus.jpg';
         Android: "14",
         image: oneplus
     }
+    
+
 ];

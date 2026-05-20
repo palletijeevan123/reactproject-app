@@ -6,6 +6,7 @@ import purifier from "../assets/images/purifier.jpg";
 export default [
     {
         id: 301,
+        price:100000,
         name: "Refrigerator",
         brand: "LG",
         capacity: "260L",
@@ -15,6 +16,7 @@ export default [
     },
     {
         id: 302,
+        price:120000,
         name: "Washing Machine",
         brand: "Samsung",
         capacity: "7 Kg",
@@ -24,6 +26,7 @@ export default [
     },
     {
         id: 303,
+        price:140000,
         name: "Air Conditioner",
         brand: "Daikin",
         capacity: "1.5 Ton",
@@ -33,6 +36,7 @@ export default [
     },
     {
         id: 304,
+        price:35000,
         name: "Microwave Oven",
         brand: "IFB",
         capacity: "25L",
@@ -42,6 +46,7 @@ export default [
     },
     {
         id: 305,
+        price:28000,
         name: "Air Purifier",
         brand: "Philips",
         coverageArea: "400 sq ft",
@@ -49,4 +54,5 @@ export default [
         type: "HEPA Filter",
         image: purifier
     }
+   
 ];

@@ -1,15 +1,46 @@
-import React from 'react'
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from "react-router-dom";
 
-function Services(){
+function Services() {
   return (
-    <div>
-        <h1>iam from services</h1>
-        <Link className="nav-link" to="offlineservices">offlineservices</Link>
-        <Link className="nav-link" to="onlineservices">onlineservices</Link>
-    <Outlet/>
+    <div className="container py-5">
+
+      {/* Title */}
+      <h1 className="text-center mb-4">Our Services</h1>
+
+      {/* Navigation Tabs */}
+      <ul className="nav nav-pills justify-content-center mb-4">
+
+        <li className="nav-item">
+          <NavLink
+            to="online"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            🌐 Online Services
+          </NavLink>
+        </li>
+
+        <li className="nav-item">
+          <NavLink
+            to="offline"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            🏬 Offline Services
+          </NavLink>
+        </li>
+
+      </ul>
+
+      {/* Content Area */}
+      <div className="card shadow p-4">
+        <Outlet />
+      </div>
+
     </div>
-  )
+  );
 }
 
 export default Services;
